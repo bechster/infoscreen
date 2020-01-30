@@ -47,7 +47,7 @@ foreach( $myposts as $post ) : setup_postdata($post); ?>
 			title="<?php esc_attr_e( 'A Semantic Personal Publishing Platform', 'infoscreen' ); ?>"
 			rel="generator"><?php printf( __( 'Proudly powered by %s', 'infoscreen' ), 'WordPress' ); ?>
 		</a> <span class="sep"> | </span>
-		<?php printf( __( 'Theme: %1$s by %2$s.', 'infoscreen' ), 'InfoScreen', '<a href="http://horsensbibliotek.dk/" rel="designer">Horsens Public Library</a>' ); ?>
+		<?php printf( __( 'Theme: %1$s by %2$s.', 'infoscreen' ), 'InfoScreen', '<a href="https://bechster.dk/" rel="designer">Bechster</a>' ); ?>
 	</div>
 	<!-- .site-info -->
 </footer>

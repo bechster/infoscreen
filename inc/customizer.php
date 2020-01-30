@@ -136,7 +136,7 @@ $options = get_option('infoscreen_theme_options', infoscreen_get_default_theme_o
 	for ($row = 1; $row < esc_attr($options['colorschemes'])+1; $row++){
 		//Table row start.
 		$uniqueID = $options["csid" . $row];
-		if($uniqueID == null){
+		if($uniqueID == null  || "undefined"){
 			$uniqueID = uniqid();
 			$options["csid" . $row] = $uniqueID;
 		}

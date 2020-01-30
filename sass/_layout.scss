@@ -45,6 +45,9 @@ body > .post {
 	border-top-width: 1px;
 	border-top-style: solid;
 	border-top-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 	padding: 20px 0;
 	position: absolute;
 	@media all and (max-width:256px) {
@@ -75,10 +78,10 @@ body > .post {
 		width:92%;
 		padding: 1em 4% 100px;
 		.branding {
-			width:92%;
-			left: 4%;
-			right: 4%;
-			bottom: 20px;
+			width:100%;
+			left: 0;
+			right: 0;
+			bottom: 0;
 		}
 
 		@media all and (max-width:256px) {
@@ -106,7 +109,7 @@ body > .post {
 		bottom: 0;
 		padding: 6% 4% 0;
 		.branding {
-			bottom:20px;
+			bottom: 0;
 
 			@media all and (max-width:256px) {
 				bottom:5px;
@@ -122,9 +125,10 @@ body > .post {
 		width: 30%;
 
 		.branding {
-			width:79%;
-			left: 10.5%;
-			right: 10.5%;
+			width:100%;
+			left: 0;
+			right: 0;
+      bottom: 0;
 		}
 	}
 
@@ -133,9 +137,10 @@ body > .post {
 		width: 54%;
 
 		.branding {
-			width:87%;
-			left: 6.5%;
-			right: 6.5%;
+			width:100%;
+			left: 0;
+			right: 0;
+      bottom: 0;
 		}
 	}
 
@@ -150,10 +155,10 @@ body > .post {
 		width: 92%;
 		padding: 2% 4% 100px;
 		.branding {
-			width:92%;
-			left: 4%;
-			right: 4%;
-			bottom: 10px;
+			width:100%;
+			left: 0;
+			right: 0;
+			bottom: 0;
 		}
 		h1 {clear: none;}
 		.entry-content {}

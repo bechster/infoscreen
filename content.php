@@ -68,7 +68,7 @@
 			<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'infoscreen' ), 'after' => '</div>' ) ); ?>
 		</div>
 		<!-- .entry-content -->
-		<h2 class="branding" <?php
+		<div class="branding" <?php
 	if (get_post_meta(get_the_ID(), '_infoscreen_layout', true) != 'layout-img') {
 		echo 'style="border-color: rgba('.$font.',.5);"';
 	} ?>
@@ -80,7 +80,7 @@ if ($options['logo'] != "") {
 } else { 
 ?><span class="logo"><?php bloginfo( 'name' ); ?></span><?php
 } 
-?></h2>
+?></div>
 	</div>
 	<!-- .slide-content -->
 	<?php //edit_post_link( __( 'Edit', 'infoscreen' ), '<span class="edit-link">', '</span>' ); ?>

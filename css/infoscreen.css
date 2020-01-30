@@ -108,6 +108,9 @@ body > .post {
   border-top-width: 1px;
   border-top-style: solid;
   border-top-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 20px 0;
   position: absolute; }
   @media all and (max-width: 256px) {
@@ -135,10 +138,10 @@ body > .post {
     padding: 1em 4% 100px; }
     .flexslider .slides .layout-img .branding,
     .flexslider .slides .layout-txt .branding {
-      width: 92%;
-      left: 4%;
-      right: 4%;
-      bottom: 20px; }
+      width: 100%;
+      left: 0;
+      right: 0;
+      bottom: 0; }
     @media all and (max-width: 256px) {
       .flexslider .slides .layout-img,
       .flexslider .slides .layout-txt {
@@ -164,7 +167,7 @@ body > .post {
     .flexslider .slides .layout-img-right .branding,
     .flexslider .slides .layout-txt-left .branding,
     .flexslider .slides .layout-txt-right .branding {
-      bottom: 20px; }
+      bottom: 0; }
       @media all and (max-width: 256px) {
         .flexslider .slides .layout-img-left .branding,
         .flexslider .slides .layout-img-right .branding,
@@ -182,17 +185,19 @@ body > .post {
     width: 30%; }
     .flexslider .slides .layout-img-left .branding,
     .flexslider .slides .layout-img-right .branding {
-      width: 79%;
-      left: 10.5%;
-      right: 10.5%; }
+      width: 100%;
+      left: 0;
+      right: 0;
+      bottom: 0; }
   .flexslider .slides .layout-txt-left,
   .flexslider .slides .layout-txt-right {
     width: 54%; }
     .flexslider .slides .layout-txt-left .branding,
     .flexslider .slides .layout-txt-right .branding {
-      width: 87%;
-      left: 6.5%;
-      right: 6.5%; }
+      width: 100%;
+      left: 0;
+      right: 0;
+      bottom: 0; }
   .flexslider .slides .layout-img-left,
   .flexslider .slides .layout-txt-right {
     right: 0; }
@@ -205,10 +210,10 @@ body > .post {
     padding: 2% 4% 100px; }
     .flexslider .slides .layout-img-top .branding,
     .flexslider .slides .layout-img-bottom .branding {
-      width: 92%;
-      left: 4%;
-      right: 4%;
-      bottom: 10px; }
+      width: 100%;
+      left: 0;
+      right: 0;
+      bottom: 0; }
     .flexslider .slides .layout-img-top h1,
     .flexslider .slides .layout-img-bottom h1 {
       clear: none; }
@@ -776,3 +781,5 @@ object {
 .blog .format-aside .entry-title,
 .archive .format-aside .entry-title {
   display: none; }
+
+/*# sourceMappingURL=infoscreen.css.map */
